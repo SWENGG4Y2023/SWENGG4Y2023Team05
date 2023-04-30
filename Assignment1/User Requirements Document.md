@@ -18,9 +18,8 @@ The purpose of this document is to outline the requirements of the Blinkit Food 
 5) Notifications: The app should provide users with real-time notifications about their orders, including order confirmations, delivery updates, and order fulfillment notifications.  
 
 6) Personalization: The app should provide users with personalized recommendations based on their order history, preferences and location. 
-
  
-## **Blinkit Food App configuration system document**
+# **Blinkit Food App configuration system document**
  
 ## **Introduction:**
 
