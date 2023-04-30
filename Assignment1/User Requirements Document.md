@@ -19,6 +19,7 @@ The purpose of this document is to outline the requirements of the Blinkit Food 
 
 6) Personalization: The app should provide users with personalized recommendations based on their order history, preferences and location. 
  
+ 
 # **Blinkit Food App configuration system document**
  
 ## **Introduction:**
