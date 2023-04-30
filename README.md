@@ -13,5 +13,5 @@ BITS ID     | Name
 
 ## Documents
 ### Stakeholder Document - [Here](Assignment1/Stakeholder.md)
-### User requirements document/ System Definition document - [Here](Assignment1/User Requirements Document.md)
-### SRS Document  - [Here](Assignment1/Software Requirement Specification.md)
+### User requirements document/ System Definition document - [Here](Assignment1/User%20Requirements%20Document.md)
+### SRS Document  - [Here](Assignment1/Software%20Requirement%20Specification.md)
