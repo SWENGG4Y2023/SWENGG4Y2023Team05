@@ -1,11 +1,11 @@
-Blinkit Food App User Requirements Document
+# **Blinkit Food App User Requirements Document**
 
-###Introduction:###
+## **Introduction:**
 
 The purpose of this document is to outline the requirements of the Blinkit Food App from the perspective of its end users. Blinkit Food App is a mobile application that provides users with a platform to order food from their favorite restaurants, track their delivery and pay.
 
  
-###User requirements:### 
+## **User requirements:**
 
 1) User interface: The user interface should be intuitive, easy to navigate and visually appealing. Users should be able to quickly and easily browse restaurant menus, search for specific dishes and view their order history. 
 
@@ -20,14 +20,14 @@ The purpose of this document is to outline the requirements of the Blinkit Food 
 6) Personalization: The app should provide users with personalized recommendations based on their order history, preferences and location. 
 
  
-###Blinkit Food App configuration system document### 
+## **Blinkit Food App configuration system document**
  
-###Introduction:###
+## **Introduction:**
 
 The purpose of this document is to outline the technical requirements of the Blinkit Food App, including its architecture, database design and system requirements. 
 
  
-###System definition:### 
+## **System definition:**
 
 1) Architecture:  Blinkit Food App is built with a mobile-first approach, with a native mobile app developed for both iOS and Android platforms. The application is developed using modern frameworks and technologies, ensuring its scalability, security and reliability. 
 
@@ -44,6 +44,6 @@ The purpose of this document is to outline the technical requirements of the Bli
 7) Testing: The application is thoroughly tested, including functional testing, performance testing and user acceptance testing, to ensure that it meets user requirements and works as expected. 
 
 
-###Conclusion:### 
+## **Conclusion:**
 
 Blinkit Food App is a scalable, secure and reliable platform that offers users  an easy and convenient way to order food from their favorite restaurants. The application is designed keeping in mind the user requirements and technical aspects to meet the needs of the users and provide a smooth user experience.
