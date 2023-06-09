@@ -69,3 +69,6 @@ The Blinkit Food App follows industry-standard security practices to protect use
 Secure transmission of data using HTTPS protocol.
 Hashing and encryption techniques for sensitive user information, such as passwords and payment details.
 Role-based access
+
+## **Activity Diagram:**
+![image](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team05/assets/75153899/a3324fc8-418b-4948-92e9-323b526377f6)
