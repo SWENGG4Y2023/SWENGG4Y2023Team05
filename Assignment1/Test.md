@@ -10,11 +10,17 @@ The purpose of this document is to outline the software testing approach and str
 
 ## **1. Testing Objectives:**
 1. Ensure the app functions correctly and meets the specified requirements.
+
 2. Verify that the user interface is user-friendly, intuitive, and responsive.
+
 3. Validate the app's performance and scalability under varying loads and usage conditions.
+
 4. Identify and fix any defects or issues that may affect the app's functionality, security, or user experience.
+
 5. Ensure the app's compatibility across different devices, operating systems, and screen resolutions.
+
 6. Validate the integration with third-party services, such as payment gateways and restaurant APIs.
+
 7. Verify the app's security measures to protect user data and prevent unauthorized access.
 
 
