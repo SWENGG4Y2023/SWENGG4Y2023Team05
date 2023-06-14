@@ -1,74 +1,92 @@
-### **Design Document for Blinkit Food App.** 
+# **Design Document for Blinkit Food App**
 
 ## **Introduction:**
 
-The Blinkit Food App is a mobile application that allows users to order food from various restaurants and have it delivered to their location. The app aims to provide a convenient and user-friendly interface for browsing menus, placing orders, and tracking deliveries. This document outlines the design and architecture of the Blinkit Food App.
+1. Purpose: The purpose of this document is to outline the design of the Blinkit Food App, a mobile application that allows users to order food from various restaurants and have it delivered to their location.
 
+2. Scope: The app will include features such as restaurant browsing, menu selection, cart management, user authentication, order tracking, and payment processing.
+
+3. Audience: This document is intended for the development team, designers, stakeholders, and anyone involved in the development and implementation of the Blinkit Food App.
 
 ## **System Architecture:**
 
-The Blinkit Food App follows a client-server architecture, where the client application runs on users' mobile devices, and the server handles request processing and data storage. The key components of the system architecture include:
+1. Client-side: The app will be developed as a mobile application using native or cross-platform frameworks such as React Native or Flutter. It will support both iOS and Android platforms.
 
+2. Server-side: The app will communicate with a server-side backend, which will handle user authentication, restaurant data, menu management, order processing, and payment integration. The backend can be built using technologies such as Node.js, Django, or Ruby on Rails, with a RESTful API architecture.
 
-## **2.1 Client Application:**
+## **User Interface Design:**
 
-The client application is developed for iOS and Android platforms using native mobile development frameworks. It provides the user interface for browsing restaurants, viewing menus, placing orders, and tracking deliveries. The client app communicates with the server using RESTful APIs.
+1. The user interface should be intuitive, user-friendly, and visually appealing.
 
+2. The app should have a consistent design theme and navigation structure.
 
-## **2.2 Server Application:**
+3. Key screens to consider include a home screen, restaurant listings, menu browsing, cart management, user profile, order tracking, and payment screens.
 
-The server application handles the core business logic and data storage. It is responsible for processing user requests, managing restaurant and menu data, and coordinating deliveries. The server application is built using a scalable and reliable backend framework like Node.js or Django, and it utilizes a relational database (e.g., MySQL, PostgreSQL) for data storage.
+## **Functional Components:**
 
+1. User Authentication: Allow users to sign up, log in, and manage their profiles.
 
-## **2.3 Database:**
+2. Restaurant Browsing: Display a list of restaurants with basic information and search/filter options.
 
-The database stores various types of data, including user information, restaurant details, menu items, orders, and delivery information. It ensures data integrity and provides efficient querying capabilities. The choice of database technology depends on the specific requirements and scalability needs of the application.
+3. Menu Display: Present restaurant menus with categories, item details, prices, and images.
 
+4. Cart Management: Enable users to add/remove items, adjust quantities, and view a summary of their order.
 
-## **2.4 Third-Party APIs:**
+5. Order Placement: Allow users to place orders, specify delivery addresses, and select payment methods.
 
-The Blinkit Food App integrates with external services such as payment gateways, geolocation services, and SMS gateways. These APIs enable secure payment processing, accurate location tracking, and real-time notifications for order status updates.
+6. Order Tracking: Provide real-time updates on the status of the order, estimated delivery time, and delivery personnel details.
 
+7. Payment Integration: Support secure payment processing, including integration with popular payment gateways.
 
+8. Notifications: Send push notifications to users regarding order confirmations, status updates, and special offers.
 
-## **3. User Interface Design:**
+## **Database Design:**
 
-The user interface (UI) of the Blinkit Food App should be intuitive, visually appealing, and easy to navigate. The design principles to consider include:
+1. Design a database schema to store information about users, restaurants, menus, orders, and transactions.
 
+2. Define relationships between entities, such as one-to-many relationships between users and orders.
 
-## **3.1 Home Screen:**
+3. Ensure efficient querying and data retrieval for optimal performance.
 
-The home screen provides a search bar to find restaurants and a list of popular or nearby restaurants. It also displays promotional banners and featured menu items.
+## **Security Considerations:**
 
+1. Implement secure authentication mechanisms, such as password hashing and token-based authentication.
 
-## **3.2 Restaurant Listings:**
+2. Use encryption for sensitive data transmission, such as user payment information.
 
-The restaurant listings screen shows a list of available restaurants, sorted by proximity or user preferences. Each listing includes restaurant name, ratings, cuisine type, and a thumbnail image. Users can filter restaurants based on cuisine, price range, and other criteria.
+3. Apply role-based access control to restrict access to certain functionalities or data.
 
+## **Performance and Scalability:**
 
-## **3.3 Menu Display:**
+1. Optimize app performance by minimizing network requests, caching data, and implementing efficient algorithms.
 
-The menu screen displays the restaurant's menu items, categorized by appetizers, main courses, desserts, etc. Each item includes a name, description, price, and an optional image. Users can add items to their cart and customize them with options like toppings or special instructions.
+2. Design the system to handle a large number of concurrent users, ensuring scalability and responsiveness.
 
+## **Third-Party Integrations:**
 
-## **3.4 Cart and Checkout**
+1. Integrate with popular mapping services to provide delivery tracking.
 
-The cart screen shows the items added by the user, along with their quantities and total price. Users can modify the cart contents, apply coupons or discounts, and proceed to the checkout screen. The checkout screen collects user details, delivery address, and payment information.
+2. Integrate with payment gateways to process secure payments.
 
+3. Incorporate push notification services for real-time updates and alerts.
 
-## **3.5 Order Tracking**
+## **Testing and Quality Assurance:**
 
-After placing an order, users can track its progress in real-time. The order tracking screen shows the current status of the order, estimated delivery time, and the delivery person's details. Users receive notifications at key milestones, such as order confirmation, dispatch, and delivery.
+1. Define a comprehensive testing strategy, including unit tests, integration tests, and end-to-end tests.
 
+2. Perform usability testing to ensure the app meets user expectations.
 
+3. Conduct security testing to identify and address potential vulnerabilities.
 
-## **4. Security and Privacy**
+4. Regularly perform code reviews to maintain code quality and adherence to coding standards.
 
-The Blinkit Food App follows industry-standard security practices to protect user data and ensure privacy. Some key security measures to implement include:
+## **Deployment and Maintenance:**
 
-Secure transmission of data using HTTPS protocol.
-Hashing and encryption techniques for sensitive user information, such as passwords and payment details.
-Role-based access
+1. Define the deployment strategy for the mobile app on app stores (e.g., Apple App Store, Google Play Store).
+
+2. Set up monitoring and error logging mechanisms to track app performance and detect issues.
+
+3. Establish a maintenance plan to address bugs, release updates, and enhance features over time.
 
 ## **Activity Diagram:**
 ![image](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team05/assets/75153899/a3324fc8-418b-4948-92e9-323b526377f6)
