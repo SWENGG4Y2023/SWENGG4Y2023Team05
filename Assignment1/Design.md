@@ -71,4 +71,6 @@ Hashing and encryption techniques for sensitive user information, such as passwo
 Role-based access
 
 ## **Activity Diagram:**
+<p align="center">
 ![image](https://github.com/SWENGG4Y2023/SWENGG4Y2023Team05/assets/75153899/a3324fc8-418b-4948-92e9-323b526377f6)
+</p>
