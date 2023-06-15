@@ -1,0 +1,20 @@
+@startuml
+!theme mars
+object "CustomerApp" as CA
+object "RestaurantApp" as RA
+object "DeliveryService" as DS
+object "PaymentGateway" as PG
+object "NotificationService" as NS
+object "GPSService" as GPSS
+object "PaymentProcessor" as PP
+object "EmailService" as ES
+object "Database" as DB
+
+DB <|-- CA
+DB <|-- RA
+DB <|-- DS
+DB <|-- PG
+DB <|-- NS
+DB <|-- GPSS
+
+@enduml
