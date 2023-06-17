@@ -10,6 +10,34 @@ object "PaymentProcessor" as PP
 object "EmailService" as ES
 object "Database" as DB
 
+CA: Username
+CA: Password
+CA: Address
+RA: Username
+RA: Password
+RA: Address
+DS: Delivery Partner
+DS: Delivery Partner Contact Number
+PG: Payment Options
+PG: Cash
+PG: UPI
+PG: Credit
+NS: Deriver Status
+NS: Delivery Time
+PP: Payment Status
+PP: Redund Status
+GPSS: Longtitue 
+GPSS: Lattitude
+GPSS: Source
+GPSS: Destination
+ES: Subscribers
+ES: Reviews
+DB: Ingredients
+DB: Inventory Management
+DB: Payment History
+DB: Order History
+
+
 DB <|-- CA
 DB <|-- RA
 DB <|-- DS
