@@ -7,7 +7,6 @@ Software Testing Document for Blinkit Food App
 The purpose of this document is to outline the software testing approach and strategies for the Blinkit Food App. The document includes the testing objectives, test scenarios, test cases, and the overall testing process.
 
 
-
 ## **1. Testing Objectives:**
 1. Ensure the app functions correctly and meets the specified requirements.
 
@@ -68,9 +67,7 @@ The test scenarios and test cases for the Blinkit Food App will cover various as
 9. Security measures, such as encryption and authentication
 
 
-
 ## **4. Testing Process:**
-
 
 
 1. Test Preparation
@@ -86,7 +83,6 @@ The test scenarios and test cases for the Blinkit Food App will cover various as
 6. Regression Testing
 
 7. User Acceptance Testing
-
 
 
 ## **Conclusion:**
